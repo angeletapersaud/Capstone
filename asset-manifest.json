@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Capstone/static/css/main.1ef357d4.css",
-    "main.js": "/Capstone/static/js/main.f0d77770.js",
+    "main.css": "/Capstone/static/css/main.ff41b923.css",
+    "main.js": "/Capstone/static/js/main.62deea7e.js",
     "static/media/PrincessMononoke2.jpg": "/Capstone/static/media/PrincessMononoke2.310a7e006af1dff921b1.jpg",
     "static/media/CastleInTheSky2.png": "/Capstone/static/media/CastleInTheSky2.9a12ad9ff3eaff164205.png",
     "static/media/PonyoGIF.gif": "/Capstone/static/media/PonyoGIF.ec1ea15e80c387939793.gif",
@@ -23,11 +23,11 @@
     "static/media/MQ-HowlsMovingCastle.jpg": "/Capstone/static/media/MQ-HowlsMovingCastle.17f59957e0da6163d563.jpg",
     "static/media/MQ-SpiritedAway.jpg": "/Capstone/static/media/MQ-SpiritedAway.cdd1c72718ee20396c48.jpg",
     "index.html": "/Capstone/index.html",
-    "main.1ef357d4.css.map": "/Capstone/static/css/main.1ef357d4.css.map",
-    "main.f0d77770.js.map": "/Capstone/static/js/main.f0d77770.js.map"
+    "main.ff41b923.css.map": "/Capstone/static/css/main.ff41b923.css.map",
+    "main.62deea7e.js.map": "/Capstone/static/js/main.62deea7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ef357d4.css",
-    "static/js/main.f0d77770.js"
+    "static/css/main.ff41b923.css",
+    "static/js/main.62deea7e.js"
   ]
 }
