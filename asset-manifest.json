@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Capstone/static/css/main.1ef357d4.css",
+    "main.js": "/Capstone/static/js/main.1f7fb184.js",
+    "static/media/PrincessMononoke2.jpg": "/Capstone/static/media/PrincessMononoke2.310a7e006af1dff921b1.jpg",
+    "static/media/CastleInTheSky2.png": "/Capstone/static/media/CastleInTheSky2.9a12ad9ff3eaff164205.png",
+    "static/media/PonyoGIF.gif": "/Capstone/static/media/PonyoGIF.ec1ea15e80c387939793.gif",
+    "static/media/MyNeighborTotoroGIF.gif": "/Capstone/static/media/MyNeighborTotoroGIF.5f458097cc907dab8e07.gif",
+    "static/media/KikisDeliveryService.gif": "/Capstone/static/media/KikisDeliveryService.eeb55b04e3756b323ace.gif",
+    "static/media/CastleInTheSkyLogin.jpg": "/Capstone/static/media/CastleInTheSkyLogin.a48023e22bc95f60f247.jpg",
+    "static/media/NoFace.jpg": "/Capstone/static/media/NoFace.79801c1e703e1eacba78.jpg",
+    "static/media/SpiritedAwayGIF.gif": "/Capstone/static/media/SpiritedAwayGIF.79993d61e33822886179.gif",
+    "static/media/MyNeighborTotoro2.jpg": "/Capstone/static/media/MyNeighborTotoro2.01ba3a7d579488f43292.jpg",
+    "static/media/Studio-Ghibli.jpg": "/Capstone/static/media/Studio-Ghibli.748c913a3a2a48bf73de.jpg",
+    "static/media/FromUpOnPoppyHill.jpg": "/Capstone/static/media/FromUpOnPoppyHill.c5bc340278569b91ab22.jpg",
+    "static/media/SpiritedAway.jpg": "/Capstone/static/media/SpiritedAway.e35e3f8ec0981efb603b.jpg",
+    "static/media/ThankYouPageImage.jpg": "/Capstone/static/media/ThankYouPageImage.4a8bd75057215ba76b00.jpg",
+    "static/media/HowlsMovingCastle.jpg": "/Capstone/static/media/HowlsMovingCastle.83a251db046d3a519d18.jpg",
+    "static/media/MQ-CastleInTheSky.jpg": "/Capstone/static/media/MQ-CastleInTheSky.09d6daf2b51a808d739a.jpg",
+    "static/media/MQ-MyNeighbor-Totoro2.jpg": "/Capstone/static/media/MQ-MyNeighbor-Totoro2.9b882510a1fa4760bff8.jpg",
+    "static/media/MQ-ConnectPgImg.jpg": "/Capstone/static/media/MQ-ConnectPgImg.7833db3d60c6394d2d25.jpg",
+    "static/media/MQ-PrincessMononoke2.jpg": "/Capstone/static/media/MQ-PrincessMononoke2.8ab422f4021c7c95a832.jpg",
+    "static/media/MQ-HowlsMovingCastle.jpg": "/Capstone/static/media/MQ-HowlsMovingCastle.17f59957e0da6163d563.jpg",
+    "static/media/MQ-SpiritedAway.jpg": "/Capstone/static/media/MQ-SpiritedAway.cdd1c72718ee20396c48.jpg",
+    "index.html": "/Capstone/index.html",
+    "main.1ef357d4.css.map": "/Capstone/static/css/main.1ef357d4.css.map",
+    "main.1f7fb184.js.map": "/Capstone/static/js/main.1f7fb184.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ef357d4.css",
+    "static/js/main.1f7fb184.js"
+  ]
+}
