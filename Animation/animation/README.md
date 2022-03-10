@@ -21,4 +21,4 @@ Target end-user: The target end user for this project are people who have an int
 
 
 ## Embedded Link:
-[Animation Site](https://angeletapersaud.github.io/AnimationProject/)
+[Animation Site](https://angeletapersaud.github.io/Capstone/)
