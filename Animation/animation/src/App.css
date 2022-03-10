@@ -95,6 +95,13 @@ input:hover {
     border-color: #936aa3;
 }
 
+.btn-confirm-done {
+    width: 150px;
+    height: 38px;
+    position: relative;
+    bottom: 3px;
+}
+
 
 /* This is the styling for the images on the landing page*/
 

@@ -242,11 +242,11 @@ button,
     margin-bottom: 5px;
 }
 
-.btn-confirm-done {
-    width: 150px;
+#btn-confirm-done {
     height: 38px;
     position: relative;
     bottom: 3px;
+    left: 1rem;
 }
 
 #UpdateFilmForm {
@@ -273,7 +273,7 @@ button,
         width: 100%;
         grid-column-start: 1;
         grid-column-end: 7;
-        grid-row-start: 6;
+        grid-row-start: 7;
         grid-row-end: 20;
         text-align: center;
     }
@@ -378,7 +378,7 @@ button,
         top: 12rem;
     }
     #update-ghibli-film-btn,
-    .btn-confirm-done {
+    #btn-confirm-done {
         font-size: 16px;
     }
     .form-label-ghibli-2 {
@@ -387,5 +387,9 @@ button,
         color: #9c69a3;
         position: relative;
         top: 4px;
+    }
+    #AddedGhibli {
+        position: relative;
+        top: 8rem;
     }
 }

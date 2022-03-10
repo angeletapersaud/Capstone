@@ -57,9 +57,8 @@ function App() {
           <Router>
             <Sidebar />
             <Routes>
-              <Route path="login" exact element={<Login />} />
+              <Route path="login" exact element={<Login user = {user}/>} />
                 <Route path="/" exact element={<Overview />} />
-                <Route path="/AnimationProject" exact element={<Overview />} />
                 <Route path="/Capstone" exact element={<Overview />} />
                 <Route path="overview" exact element={<Overview />} />
               <Route element = {<ProtectedRoutes user = {user}/>}>

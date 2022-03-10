@@ -5,7 +5,7 @@ import GhibliService from '../services/GhibliService';
 function Login(props) {
   let [usernameLogin, setUsernameLogin] = useState("");
   let [passwordLogin, setPasswordLogin] = useState("");
-  let [submittedLogin, setSubmittedLogin] = useState("false");
+  let [submittedLogin, setSubmittedLogin] = useState(false);
 
   // useEffect(()=>{
   //   document.getElementById("signoutBtn").hidden = false
@@ -20,11 +20,12 @@ function Login(props) {
   };
 
   //handle logout by calling dispatch with action type Loggin In
+  let isLoggedIn = false;
    const handleSubmitLogin = (event) => {
-     let isLoggedIn = false
+     
     event.preventDefault();
-    console.log(usernameLogin);
-    console.log(passwordLogin);
+    //console.log(usernameLogin);
+    //console.log(passwordLogin);
      GhibliService.logInToAnimationSite(usernameLogin,passwordLogin).then((res) => {
       if(res.data==='Successfully Logged In'){
           console.log('Successfully Logged In');
@@ -36,7 +37,7 @@ function Login(props) {
         userContext.userDispatch({ type: "Logged In", usernameLogin });
         setUsernameLogin("");
         setPasswordLogin("");
-        setSubmittedLogin((prevSubmitted) => "true");
+        setSubmittedLogin((prevSubmitted) => true);
         //document.getElementById("signoutBtn").hidden = false;
         
         }
@@ -51,14 +52,14 @@ function Login(props) {
   function handleSubmitLogout() {
     //consume useContext hook 
     userContext.userDispatch({ type: "Logged Out" });
-    setSubmittedLogin((prevSubmitted) => "false");
+    setSubmittedLogin((prevSubmitted) => false);
     //document.getElementById("signoutBtn").hidden = true;
   }
 
   return (
     <div id="LoginPgContainer">
        <div id="signoutBtnDiv">
-        <button hidden = {submittedLogin === 'true'? false : true}   id="signoutBtn" onClick={() => handleSubmitLogout()}>
+        <button hidden = {props.user.includes('Logged in as') ? false : true}   id="signoutBtn" onClick={() => handleSubmitLogout()}>
           Logout!
         </button>
        </div> 

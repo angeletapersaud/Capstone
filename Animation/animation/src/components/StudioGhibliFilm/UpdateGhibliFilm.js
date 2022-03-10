@@ -213,8 +213,15 @@ useEffect(() => {
                 value={movieBanner}
                 placeholder = {returnedGhibliFilm.movieBanner}
               />
+              <div >
+              <button id="btn-confirm-done" onClick={done}> Done </button>
+              </div>
+              
+              <div>
                 <span id="AddedGhibli" hidden = {!submitted}>Success Updating!</span>
-                <button className="btn-confirm-done"onClick={done}> Done </button>
+              </div>
+              
+                
             </form>
           </div>
         </div>
