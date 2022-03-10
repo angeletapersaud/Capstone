@@ -1,4 +1,4 @@
-# Mod 2-Website Building with React: Animation
+# Mod 3: Capstone Project
 
 ## Problem statement:
 The purpose of this project is to provide animation related information to users. In addition, the website provides an opportunity for the user to stay connected and receive updates when available.
