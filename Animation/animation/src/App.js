@@ -24,16 +24,19 @@ const reducer = (state, action) => {
     case "Logged Out":
       return {
         ...state,
+        isLoggedIn: false,
         user: "Logged Out",
       };
     case "Logged In":
       return {
         ...state,
+        isLoggedIn: true,
         user: "Logged in as: " + action.usernameLogin,
       };
       case "Invalid Creds":
       return {
         ...state,
+        isLoggedIn: false,
         user: "Unable to login as: " + action.usernameLogin,
       };
     default:
@@ -44,12 +47,12 @@ const reducer = (state, action) => {
 //define routes
 function App() {
   //destructure useReducer hook
-  const [{ user }, dispatch] = useReducer(reducer, { user: "Log in" });
+  const [{user,isLoggedIn} , dispatch] = useReducer(reducer, { user: "Log in" });
 
   return (
     //pass destructered object and method into Provider to be
     //accessible globally
-    <UserContext.Provider value={{ userState: user, userDispatch: dispatch }}>
+    <UserContext.Provider value={{ userState: {user,isLoggedIn}, userDispatch: dispatch }}>
       <div className="App">
         <div id="main-div">
           <div id="UserID-div">{user}</div>
@@ -57,11 +60,11 @@ function App() {
           <Router>
             <Sidebar />
             <Routes>
-              <Route path="login" exact element={<Login user = {user}/>} />
+              <Route path="login" exact element={<Login isLoggedIn = {isLoggedIn}/>} />
                 <Route path="/" exact element={<Overview />} />
                 <Route path="/Capstone" exact element={<Overview />} />
                 <Route path="overview" exact element={<Overview />} />
-              <Route element = {<ProtectedRoutes user = {user}/>}>
+              <Route element = {<ProtectedRoutes isLoggedIn = {isLoggedIn}/>}>
                 <Route path="overview/AboutUs" exact element={<AboutUs />} />
                 <Route path="overview/AboutStudioGhibli" exact element={<AboutStudioGhibli />} />
                 <Route path="/search" exact element={<IntroToSearch />} />

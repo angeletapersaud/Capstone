@@ -59,7 +59,7 @@ function Login(props) {
   return (
     <div id="LoginPgContainer">
        <div id="signoutBtnDiv">
-        <button hidden = {props.user.includes('Logged in as') ? false : true}   id="signoutBtn" onClick={() => handleSubmitLogout()}>
+        <button hidden = {props.isLoggedIn ? false : true}   id="signoutBtn" onClick={() => handleSubmitLogout()}>
           Logout!
         </button>
        </div> 

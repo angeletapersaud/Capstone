@@ -6,7 +6,7 @@ import Login from './pages/Login'
 function ProtectedRoutes(props) {
    function isLoginValid(){
        //console.log('props.user:'+props.user);
-       if(props.user.includes('Logged in as'))
+       if(props.isLoggedIn)
        {
            return true;
        }
